@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # Excluir diretório nmap-vulners se já existir
-rm -rf nmap-vulners
+#rm -rf nmap-vulners
 
 # Baixar nmap-vulners atualizado
-git clone https://github.com/vulnersCom/nmap-vulners.git
+#git clone https://github.com/vulnersCom/nmap-vulners.git
+
+# Excluir a pasta report
+rm -Rf report
 
 # Solicitar ao usuário o intervalo de IPs
 read -p "Digite o IP base (exemplo: 10.1.0.): " base_ip
