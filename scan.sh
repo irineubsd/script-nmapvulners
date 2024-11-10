@@ -10,7 +10,7 @@
 rm -Rf report
 
 # Solicitar ao usuário o intervalo de IPs
-read -p "Digite o IP base (exemplo: 10.1.0.): " base_ip
+read -p "Digite os 3 primeiros octetos da rede (exemplo: 10.1.0.): " base_ip
 read -p "Digite o número inicial do último octeto do IP: " start_ip
 read -p "Digite o número final do último octeto do IP: " end_ip
 
